@@ -1,0 +1,373 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    color: aliceblue;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-image: url(nathan-anderson-9o-VrJSwGuw-unsplash.jpg);
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+
+h3 {
+    text-transform: capitalize;
+    color: white;
+    flex: 0 0 auto;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    margin-left: 450px;
+
+
+}
+
+li {
+    color: white;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+input {
+    display: flex;
+
+    margin-left: 200px;
+    border-radius: 20px;
+    outline: auto;
+}
+
+.form-control {
+    display: block;
+
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 3px;
+
+    color: var(--bs-body-color);
+
+    background-color: var(--bs-body-bg);
+
+
+    border-radius: 20px;
+
+}
+
+main {
+    background-color: rgb(71, 71, 71);
+
+    color: white;
+    height: 500px;
+    width: auto;
+}
+
+.outer-box {
+    width: auto;
+    padding: 30px;
+
+
+
+}
+
+.inner-boxes-container {
+    display: flex;
+
+
+
+}
+
+.outer-boxhead {
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+
+}
+
+
+.inner-box-title {
+    font-size: 30px;
+
+    color: #f8f6f6;
+
+
+}
+
+.inner-box-text {
+    font-weight: 800;
+    color: #ffffff;
+    display: flex;
+    text-align: left;
+    margin-right: 300px;
+    margin-top: 50px
+}
+
+.inner-box {
+    background-color: rgb(0, 0, 0);
+    width: 1500px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 35% 65% 17% 83% / 59% 37% 63% 41%;
+
+}
+
+.potfilo {
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 10px;
+
+
+}
+
+.btn {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(71, 71, 71);
+
+    outline: none;
+    width: 100px;
+    text-transform: capitalize;
+
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: white;
+}
+
+.card {
+    height: 300px;
+    justify-content: space-around;
+    background-color: rgb(92, 92, 92);
+    width: 300px;
+}
+
+.card:hover {
+
+    background-color: rgb(0, 0, 0);
+    color: #fcfcfc;
+    border: 2px solid rgb(61, 61, 61);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skills:hover {
+    transition: all 1s ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 10s;
+    text-decoration: underline;
+}
+
+.skills-sec1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.skills-sec2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skills-cards {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 2px;
+    border-radius: 20px;
+
+}
+
+.skills-cards:hover {
+    transition: all 0.3s ease-out;
+    background-color: #63726e;
+}
+
+.html {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.card-title {
+    color: #f8f6f6;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+
+.projects-sec {
+    margin-top: 50px;
+}
+
+.projects {
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+}
+
+.project {
+    color: #f8f6f6;
+    display: inline;
+}
+
+.pro {
+    color: #f8f6f6;
+    margin-left: 20px;
+    list-style: decimal;
+    text-transform: capitalize;
+}
+
+.outer-box2 {
+    width: 100%;
+    padding: 30px;
+    background-color: #555555;
+
+    margin: 20px 0;
+}
+
+.outer-boxhead2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: capitalize;
+
+
+}
+
+.inner-boxes-container2 {
+    display: flex;
+
+
+    margin-top: 20px;
+}
+
+.inner-box-head2 {
+    flex: 1;
+    background-color: #02bdec;
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inner-box-left:hover {
+    border: 2px solid black;
+}
+
+.inner-box-right:hover {
+    border: 2px solid black;
+}
+
+
+.inner-box-title2 {
+    font-size: 18px;
+    color: #000000;
+
+    margin-top: 20px;
+    margin-left: 40%;
+
+}
+
+.inner-box-text2 {
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #535353;
+}
+
+.footer-section-left {
+    padding: 0px 20px;
+    flex: 1;
+
+}
+
+.about {
+    color: #fff;
+
+    text-transform: capitalize;
+    font-size: 30px;
+
+    padding-left: 100px;
+}
+
+.para-left {
+    padding-right: 100px;
+    color: #fff;
+    padding-left: 100px;
+    font-size: 12px;
+}
+
+
+.footer-section-right {
+
+    padding: 0px 20px;
+    flex: 1;
+}
+
+.content {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-right: 300px;
+
+}
+
+.logos {
+    font-size: 10px;
+    line-height: 2px;
+    text-transform: capitalize;
+    margin-left: 4px;
+    color: white;
+
+}
